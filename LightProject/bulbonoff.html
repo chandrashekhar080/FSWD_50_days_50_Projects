@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: beige;
+            color: black;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 30px;
+            margin: 15px;
+            text-transform: capitalize;
+        }
+
+        img {
+            background-color: transparent;
+            width: 300px;
+            height: 400px;
+        }
+
+        .on {
+            background-color: green;
+            padding: 5px 10px;
+        }
+
+        .off {
+            background-color: red;
+            padding: 5px 10px;
+        }
+
+        button {
+            text-align: center;
+            font-weight: 700;
+            color: #fff;
+            margin-left: 15px;
+            text-transform: capitalize;
+            border: transparent;
+            border-radius: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Here we use the code of js to turn ON the light and turn Off the light</p>
+    <p>Here We Go :-</p>
+    <button class="on" type="button"
+        onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulbon.gif'">click to turn ON
+        the Light</button>
+
+    <img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="">
+
+    <button class="off" type="button"
+        onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">click to turn
+        OFF the Light</button>
+</body>
+
+</html>
