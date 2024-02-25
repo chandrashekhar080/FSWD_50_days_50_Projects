@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let's work</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /*html,body{
+        width: 100vw;
+        height: auto;
+    }*/
+    body {
+        width: 100vw;
+        height: auto;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        color: #fff;
+    }
+
+    .nav {
+        width: 100%;
+        height: 90px;
+        background-color: #fff;
+        color: #111;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.8vw;
+    }
+
+    .nav .jobs {
+        display: flex;
+        gap: 10vw;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .nav .logo {
+        width: 70px;
+        height: 70px;
+        background-color: aqua;
+        border-radius: 50%;
+    }
+
+    .nav ul {
+        width: 35vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+    .nav ul li {
+        padding: 5px 8px;
+        border-radius: 30%;
+        font-size: 1.7vw;
+    }
+
+    .nav .user {
+        width: 70px;
+        height: 70px;
+    }
+
+    .nav .user img {
+        width: 100%;
+        height: 100%;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .main .landing {
+        width: 98%;
+        height: auto;
+        padding: 0.5vw;
+    }
+
+    .main .landing img {
+        width: 100%;
+        height: 100vh;
+        border-radius: 3%;
+
+    }
+
+    .main .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+        padding: 6px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .main .card img {
+        width: 38%;
+        height: auto;
+        border-radius: 0.8vw;
+    }
+
+    .main .card .text {
+        width: 40%;
+        height: auto;
+        border: 1px solid #fff;
+        border-radius: 0.5vw;
+        padding: 7px;
+    }
+
+    .main .card {
+        position: absolute;
+        transform: translate(1%, -150%);
+        opacity: 0;
+        background-color: transparent;
+    }
+
+    .main .card:hover {
+        opacity: 1;
+        transition: 0.6s;
+    }
+
+    .nav .logo:hover {
+        border: 5px solid black;
+        transition: .8s;
+    }
+
+    .nav .user:hover {
+        border: 5px solid black;
+        border-radius: 50%;
+        transition: .8s;
+    }
+
+    .nav ul li:hover {
+        background-color: black;
+        color: #fff;
+        transition: 0.5s;
+    }
+</style>
+
+<body>
+    <!--Heer our Main Container -->
+    <div class="container">
+        <div class="nav">
+            <!--Navbar dedicated to user services and logo-->
+            <div class="jobs">
+                <div class="logo">
+                    <!--<img src="" alt="">-->
+                </div>
+                <ul>
+                    <li>Home</li>
+                    <li>Work</li>
+                    <li>About Us</li>
+                    <li>Contat Us</li>
+                </ul>
+            </div>
+            <div class="user">
+                <img src="./assets/user.jpg" alt="">
+            </div>
+        </div>
+        <!--main landing pages and cards-->
+        <div class="main">
+            <div class="landing">
+                <img src="./assets/landing.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="./assets/card.jpg" alt="">
+                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora similique atque,
+                    laborum aut quidem debitis eligendi ipsam optio? Sunt dolorum eaque odit dolore. Minus, commodi.
+                    Consectetur at debitis odit, dolorem alias eos necessitatibus consequatur modi voluptas porro amet
+                    illo repellendus blanditiis ipsam incidunt suscipit eaque ducimus vel fugit illum, officia et optio?
+                    Cupiditate ducimus animi perspiciatis aut, et, iste dolorem, mollitia voluptates possimus adipisci
+                    iusto maiores minus voluptas natus. Cum ratione omnis ex eius eveniet, debitis facilis vel ducimus
+                    voluptate sunt! Tenetur laboriosam tempora iste nisi atque, provident rerum doloremque incidunt
+                    quidem, illo corporis quam! Sequi laboriosam sint ratione commodi.</div>
+            </div>
+        </div>
+        <!--main landing pages and cards-->
+        <div class="main">
+            <div class="landing">
+                <img src="./assets/landing.webp" alt="">
+            </div>
+            <div class="card">
+                <img src="./assets/card.webp" alt="">
+                <div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quis debitis
+                    possimus reprehenderit velit saepe consequatur cum dolores voluptate voluptates ducimus provident
+                    quod odio recusandae ratione tempora ea nobis soluta maxime quae, eum expedita quam culpa maiores?
+                    Maiores dicta adipisci quod ea fugit laborum vel quasi. Est velit quisquam, animi officia reiciendis
+                    tenetur at amet ipsa consequuntur esse sint totam ullam praesentium autem natus nesciunt consequatur
+                    recusandae enim? Enim saepe veritatis, praesentium culpa iure reiciendis et repellat omnis
+                    cupiditate corrupti quod corporis quibusdam amet consequatur ipsa, libero nesciunt deserunt cum
+                    tempore aspernatur molestiae fuga, laudantium explicabo ipsum. Pariatur, ducimus facilis!</div>
+            </div>
+        </div>
+        <!--main landing pages and cards-->
+        <div class="main">
+            <div class="landing">
+                <img src="./assets/landing.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="./assets/card1.jpg" alt="">
+                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo adipisci ratione
+                    voluptate dolorum excepturi porro ullam quibusdam quia qui placeat voluptas sequi, quis eius et
+                    distinctio voluptatum! Debitis, expedita ipsum! In obcaecati facilis quas nostrum consequuntur.
+                    Consequuntur ad expedita nulla minima error voluptate? Sequi minus aperiam harum laborum recusandae
+                    assumenda numquam ab dolor vitae omnis! Quas doloribus temporibus molestiae veniam nulla ullam at ut
+                    quod delectus itaque. Unde quidem vitae rem voluptas impedit distinctio, perferendis qui repellendus
+                    pariatur dolor! Accusantium optio delectus eum? Veritatis, omnis. Consequuntur enim reiciendis
+                    illum? Dolore tenetur maxime quas cum. Libero optio quod perspiciatis autem soluta?</div>
+            </div>
+        </div>
+        <!--main landing pages and cards-->
+        <div class="main">
+            <div class="landing">
+                <img src="./assets/landing.webp" alt="">
+            </div>
+            <div class="card">
+                <img src="./assets/card.webp" alt="">
+                <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro recusandae dolores
+                    autem fugit veritatis. Molestias voluptatibus quae iure fuga omnis veniam ducimus fugit hic libero
+                    magni. Illum nisi fugit ratione odio illo harum error cumque, libero iste aspernatur autem? Expedita
+                    quaerat quasi deserunt necessitatibus voluptates adipisci corrupti nihil illum qui. Molestiae
+                    nostrum quo quod, maxime quisquam illum nulla a molestias aperiam, adipisci magnam ab? Rem
+                    voluptatum ipsam soluta ducimus repellendus, delectus nam quibusdam consequatur blanditiis ad
+                    cupiditate ex odit odio quis amet quia aspernatur. Facere explicabo nesciunt vitae, culpa magnam
+                    tenetur quas iusto a quo inventore quidem reprehenderit fugit porro.</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
