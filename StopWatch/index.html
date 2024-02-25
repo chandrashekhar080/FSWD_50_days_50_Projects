@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./timer.js" defer></script>
+    <title>StopWatch</title>
+ </head>
+ <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(34, 39, 44);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        letter-spacing: 8px;   
+    }
+    .watch{
+        background-color: black;
+        border-radius: 10px;   
+        cursor:text;
+    }
+    .timerDisplay{
+        padding: 10px 15px;
+        font-size: 50px;
+        font-weight: 700;
+        color: #fff;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+    .btn button{
+        padding: 5px 10px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        letter-spacing: 3px;
+        
+    }
+    .btn button:hover{
+        outline: 1px solid lightblue;
+        color: lightblue;
+    }
+    #stop{
+        background-color: red;
+    }
+    #start{
+        background-color: green;
+    }
+    #reset{
+        background-color: blue;
+    }
+ </style>
+ <body>
+      <div class="watch">
+        <div class="timerDisplay">00 : 00 : 00</div>
+      </div>
+      <div class="btn">
+        <button id="stop">STOP</button>
+        <button id="start">START</button>
+        <button id="reset">RESET</button>
+      </div>    
+  </body>
+</html>
