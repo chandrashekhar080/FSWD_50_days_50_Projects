@@ -9,6 +9,8 @@
 | 06.     |  Cursor Mover  | HTML,CSS,JavaScript | [Link](https://github.com/chandrashekhar080/FSWD_50_days_50_Projects/tree/10415ab9e29fffecf1374c82733fe76584a0d74d/cursormove) |
 | 07.     | Animated Navigation | HTML.CSS,Javascript | [Link](https://github.com/chandrashekhar080/FSWD_50_days_50_Projects/tree/10415ab9e29fffecf1374c82733fe76584a0d74d/Animated_Navigation) |
 | 08.     | Auto_text_effects | HTML,CSS,Javascript | [Link](https://github.com/chandrashekhar080/FSWD_50_days_50_Projects/tree/d3c19fd32dfc05895fe98cee95e3396c5de11de5/Auto_text_effects) |
+| 09.     | Background_Slider | HTML,CSS,Javascript | [Link](https://github.com/chandrashekhar080/FSWD_50_days_50_Projects/tree/d3c19fd32dfc05895fe98cee95e3396c5de11de5/Background_Slider) |
+| 10.     | 
 
 
 
